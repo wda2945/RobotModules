@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><data>
+<waypoint>
+<name type="text">_Circle1</name><latitude type="real">19.414705</latitude><longitude type="real">-154.891815</longitude>
+<connections>
+<connection><name type="text">CircleApproach</name></connection>
+<connection><name type="text">_Circle2</name></connection>
+<connection><name type="text">_Circle4</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">_Circle2</name><latitude type="real">19.414772</latitude><longitude type="real">-154.891739</longitude>
+<connections>
+<connection><name type="text">_Circle1</name></connection>
+<connection><name type="text">_Circle3</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">_Circle3</name><latitude type="real">19.414757</latitude><longitude type="real">-154.891647</longitude>
+<connections>
+<connection><name type="text">Lair</name></connection>
+<connection><name type="text">CroquetEntry1</name></connection>
+<connection><name type="text">_Circle2</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">_Circle4</name><latitude type="real">19.41464</latitude><longitude type="real">-154.891739</longitude>
+<connections>
+<connection><name type="text">_Circle1</name></connection>
+<connection><name type="text">Lair</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">CircleApproach</name><latitude type="real">19.414688</latitude><longitude type="real">-154.891876</longitude>
+<connections>
+<connection><name type="text">LairEntry</name></connection>
+<connection><name type="text">_Circle1</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">CroquetEntry1</name><latitude type="real">19.414829</latitude><longitude type="real">-154.891617</longitude>
+<connections>
+<connection><name type="text">_Circle3</name></connection>
+<connection><name type="text">_FollyApproach</name></connection>
+<connection><name type="text">Solar1</name></connection>
+<connection><name type="text">Solar2</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">CroquetEntry2</name><latitude type="real">19.414827</latitude><longitude type="real">-154.891968</longitude>
+<connections>
+<connection><name type="text">_FollyApproach</name></connection>
+<connection><name type="text">Solar1</name></connection>
+<connection><name type="text">Solar2</name></connection>
+<connection><name type="text">Fiveway</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">Fiveway</name><latitude type="real">19.414787</latitude><longitude type="real">-154.892014</longitude>
+<connections>
+<connection><name type="text">LawnEntry2</name></connection>
+<connection><name type="text">_Drive1</name></connection>
+<connection><name type="text">CroquetEntry2</name></connection>
+<connection><name type="text">LairEntry</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">_FollyApproach</name><latitude type="real">19.414867</latitude><longitude type="real">-154.891602</longitude>
+<connections>
+<connection><name type="text">CroquetEntry1</name></connection>
+<connection><name type="text">CroquetEntry2</name></connection>
+<connection><name type="text">Solar1</name></connection>
+<connection><name type="text">Solar2</name></connection>
+<connection><name type="text">Folly</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">Folly</name><latitude type="real">19.41485</latitude><longitude type="real">-154.891541</longitude>
+<connections>
+<connection><name type="text">_FollyApproach</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">Lair</name><latitude type="real">19.414667</latitude><longitude type="real">-154.891668</longitude>
+<connections>
+<connection><name type="text">_Circle3</name></connection>
+<connection><name type="text">_Circle4</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">LairEntry</name><latitude type="real">19.414721</latitude><longitude type="real">-154.891983</longitude>
+<connections>
+<connection><name type="text">Fiveway</name></connection>
+<connection><name type="text">CircleApproach</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">Solar1</name><latitude type="real">19.41501</latitude><longitude type="real">-154.891739</longitude>
+<connections>
+<connection><name type="text">CroquetEntry1</name></connection>
+<connection><name type="text">CroquetEntry2</name></connection>
+<connection><name type="text">Solar2</name></connection>
+<connection><name type="text">_FollyApproach</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">Solar2</name><latitude type="real">19.414961</latitude><longitude type="real">-154.891983</longitude>
+<connections>
+<connection><name type="text">CroquetEntry1</name></connection>
+<connection><name type="text">CroquetEntry2</name></connection>
+<connection><name type="text">Solar1</name></connection>
+<connection><name type="text">_FollyApproach</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">_Drive1</name><latitude type="real">19.414515</latitude><longitude type="real">-154.891983</longitude>
+<connections>
+<connection><name type="text">Fiveway</name></connection>
+<connection><name type="text">House</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">House</name><latitude type="real">19.414431</latitude><longitude type="real">-154.892181</longitude>
+<connections>
+<connection><name type="text">_Drive1</name></connection>
+<connection><name type="text">LawnEntry1</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">LawnEntry1</name><latitude type="real">19.414591</latitude><longitude type="real">-154.892212</longitude>
+<connections>
+<connection><name type="text">House</name></connection>
+<connection><name type="text">_Lawn1</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">_Lawn1</name><latitude type="real">19.414747</latitude><longitude type="real">-154.892181</longitude>
+<connections>
+<connection><name type="text">LawnEntry1</name></connection>
+<connection><name type="text">LawnEntry2</name></connection>
+</connections>
+</waypoint>
+
+<waypoint>
+<name type="text">LawnEntry2</name><latitude type="real">19.414810</latitude><longitude type="real">-154.892075</longitude>
+<connections>
+<connection><name type="text">_Lawn1</name></connection>
+<connection><name type="text">Fiveway</name></connection>
+</connections>
+</waypoint>
+
+</data>
